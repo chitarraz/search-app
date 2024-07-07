@@ -1,0 +1,36 @@
+
+@import '../general.scss';
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+.textfieldContainer {
+  display: flex;
+  align-items: center;
+}
+
+.textfield {
+  height: 54px;
+  & fieldset {
+    border: 1px solid #A4A4A4;
+    border-radius: 8px;
+    margin-right: -16px;
+    height: 58px;
+    border-width: 1px !important;
+  }
+}
+
+.button {
+  background-color: $primary;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  padding-left: 32px;
+  padding-right: 32px;
+  height: 56px;
+  text-transform: capitalize;
+  box-shadow: none;
+  border-radius: 8px;
+}
